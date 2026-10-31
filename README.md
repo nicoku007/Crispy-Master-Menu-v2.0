@@ -1,4 +1,4 @@
-# Crispy-Master-Menu V1.3 for Crispy Doom (Iwads, custom wads, Master Levels, Maximum Doom).
+# Crispy-Master-Menu V2.0 for Crispy Doom, Heretic, Hexen and Strife.
 
 
 ![crispy v1.3 1.jpg](https://github.com/nicoku007/Crispy-Master-Menu-v1.2/blob/main/crispy%20v1.3%201.jpg?raw=true )
@@ -9,53 +9,59 @@ Description: Crispy-Master-Menu is derived from my other project called "Choco-M
                        
 Launcher features:
 
-For full screen mode you can press F1 and to return the screen to 
-normal press Escape.
+• Multi-Game Support: Launch and manage Doom, Heretic, Hexen, and Strife from a single unified interface.
 
-Iwads: the possibility of choosing the Iwad to play without the need to enter crispy-doom.setup to configure a specific Iwad or to have 4 folders with their respective Iwad.
+• IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-Custom wads: The possibility of playing with custom WADs from the community or your own, you can also combine different WADs if the game requires it, for example: Back to  SaturnX "btsx_e1a.wad + btsx_e1b.wad", mix MIDI or MUS files with a WAD if a WAD has it, Hell Revealed: "HR.WAD + HRMUS.WAD" or also you can use DEH files for a WAD that uses special textures, "1k3v1a.wad +   1k3v1a.deh".
- 
-Master Levels Menu: The launcher has a menu for playing the Master Levels for Doom 2, eliminating the need to enter cumbersome parameters in the command line to select each map. The   menu also includes the Master MIDI Pack to add musical variety to the levels. (Thanks to Peter Lawrence for allowing me to use the MIDI Pack for the menu.).
+• WAD Combining: Cleanly load secondary files (.wad, .deh, and Heretic's .hhe patches), perfect for mixing maps with custom texture or music patches.
 
-Campaign mode for Master Levels: Integrated an automated virtual campaign data streamer for the Master Levels that generates temporary engine scripts natively in Windows Temp. This completely insulates and safeguards original game files against modifications, deploying an automated garbage collector to erase all temporary virtual files instantly on process exit. The second part of the campaign features a new sky with dark green clouds to match the launcher's default color (Muted Military Green).
+• Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
 
-Maximum Doom: The launcher has a session for Maximum Doom, the wads are separated into "maximum Doom 1" and "Maximum Doom 2" and are programmed to work only with their own  Iwad "DOOM.WAD" or "DOOM2.WAD".
+• Quick Controls: Press F1 for full screen mode and Escape to return to windowed mode.
 
-Multiplayer: The menu includes options for multiplayer, cooperative deathmatch, deathmatch 2.0, private server, setting your server name, UDP port, auto join, as well as using server   address. Each menu session has multiplayer options that only work for that session to prevent errors.
+Special Modes (Doom / Doom 2)
 
-Player name: The launcher can detect the crispy-doom.cfg file, allowing you to change the player name from the menu without needing to use crispy-doom.setup.
- 
-The need to use quotation marks has been eliminated: Quotation marks (" ") are configured within the launcher's code, so there is no longer any need to use them when entering the server or player name.
+• Master Levels Menu: Run any Master Levels for Doom 2 map directly without typing cumbersome parameters. Fully integrates Peter Lawrence's Master MIDI Pack.
 
-Parameters: Each menu session has parameters to modify the game if you wish. These include: No monsters, Fast monsters, Respawn monsters, and Turbo.
+• Campaign Mode: Automatically sequences levels by generating temporary scripts in Windows Temp to protect your original files, featuring a garbage collector that wipes them on exit. Includes a custom sky with dark Green clouds.
 
-Extra parameters option: a text box allows you to enter and use parameters that are not found in the launcher.
+• Maximum Doom: Dedicated section with separate folders (maximum1 and maximum2) programmed to work exclusively with their respective IWADs.
 
-Demo: Each session has the option to record and view demos of your games; the "Demo File" button is used to search for the lmp files you have created.
+Multiplayer, Parameters & Demos
 
-Master Server and Locar Search: the possibility of viewing the Chocolate Doom master server or searching for a server in the local area.
+• Advanced Multiplayer: Independent options per session (Cooperative, Deathmatch, Deathmatch 2.0, private server, IP, UDP port, server name, and auto-join). Lets you query the Chocolate Doom Master Server or search the local area.
 
-Added a dedicated "Color" layout tab featuring 2 independent 16-color MS-DOS CGA/EGA/VGA style selection ListBoxes to adjust backgrounds and fonts natively.
+• Simplified Player Name: Reads your chocolate-doom.cfg file to change your name from the menu. The code handles the necessary quotation marks (" ") automatically.
 
-Note: MS-DOS colors were too bright for modern screens, so the colors were softened to avoid eye strain
+• Engine Parameters: Direct toggles for No monsters, Fast monsters, Respawn monsters, and Turbo, along with an Extra Parameters text box for any other command argument.
 
-Border Customization: Added a third color ListBox, allowing you to choose from 16 different colors to customize your launcher's borders
+• Demo Recorder: Session-specific tools to record or play back your .lmp files with a dedicated file browser.
 
-A brightness selector for both background and font colors was added as an extra measure to prevent eye strain.
+Visual Customization 
 
-Exclusive Feature: Integrated native map selection support for John Romero's SIGIL and SIGIL II directly within the 'Level Select' ComboBox. This implementation explicitly exploits Crispy Doom's expanded engine limits to comfortably warp and handle these extended map slots and episodes (latest versions of Crispy Doom are highly recommended).
+• Smart Retro Layout: The default color for Crispy-Master-Menu is Muted Military Green with bright Green borders, unlike Choco-Master-Menu, whose default color is Deep Charcoal Blue with Cyan borders.
 
-INSTRUCTIONS:                                                                 
-  
- 1: All you have to do is put Crispy-Master-Menu.exe in the same directory where you have crispy-doom.exe. 
- 
- 2: You need the Master Levels wads, Put the Master Levels wads inside the folder called "master-wads", the folder is included in the zip file.
+• Native Color Tuning: Tab featuring independent 16-color MS-DOS CGA/EGA/VGA style selection ListBoxes for fonts, backgrounds, and launcher borders. Includes a brightness selector to protect your eyesight.
 
- 3: Put the maximum doom wads corresponding to DOOM 1 inside the folder called "maximum1" and the wads  corresponding to DOOM 2 inside "maximum2". The folders are included in the  zip file.
- 
- 4: Put the iwads in the same directory: "DOOM.WAD, DOOM2.WAD, TNT.WAD, and PLUTONIA.WAD". This way you can select them from the menu without having to go into crispy-doom.setup and if you have plutmidi.wad in the same directory, the menu will detect it automatically.
 
- Crispy-Master-Menu by Nicokugame007.
- 
- Credit for the Master Midi pack goes to Peter Lawrence.
+Installation Instructions
+
+1. Extract the entire "Crispy-Master-Menu" folder from the ZIP archive and place it anywhere on your system.
+
+2. Run Crispy-Master-Menu.exe and use the Browse buttons to select your game executables.
+   * The button to find "crispy-doom.exe" is inside the "Locate .EXE" section.
+   * The buttons for Heretic, Hexen, and Strife are located inside the "SPECIAL GUESTS" section.
+
+3. Important Note: The master-wads, maximum1, and maximum2 folders must remain in the same directory as Crispy-Master-Menu.exe for the Master Levels and Maximum Doom features to work properly.
+
+4. Place your Master Levels files inside the master-wads folder.
+
+5. Place your Maximum Doom files inside their respective folders: maximum1 (for Doom 1) and maximum2 (for Doom 2).
+
+6. Keep your official IWADs (DOOM.WAD, DOOM2.WAD, TNT.WAD, PLUTONIA.WAD, HERETIC.WAD, HEXEN.WAD, STRIFE1.WAD) in the same directory as their respective game executables to allow the launcher to detect them.
+
+Credits
+
+• Developer: Nicokugame007
+
+• Master MIDI Pack: Peter Lawrence

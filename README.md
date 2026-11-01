@@ -15,6 +15,8 @@ Launcher features:
 
 • WAD Combining: Cleanly load secondary files (.wad, .deh, and Heretic's .hhe patches), perfect for mixing maps with custom texture or music patches.
 
+• support for Sigil, Sigil 2, and No Rest for the Living.
+
 • Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
 
 • Quick Controls: Press F1 for full screen mode and Escape to return to windowed mode.

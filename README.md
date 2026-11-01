@@ -13,7 +13,7 @@ Launcher features:
 
 • IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-• WAD Combining: Cleanly load secondary files (.wad, .deh, and Heretic's .hhe patches), perfect for mixing maps with custom texture or music patches.
+• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture or music patches.
 
 • support for Sigil, Sigil 2, and No Rest for the Living.
 

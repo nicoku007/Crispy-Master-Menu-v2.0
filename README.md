@@ -13,7 +13,7 @@ Launcher features:
 
 • IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture or music patches.
+• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture.
 
 • support for Sigil, Sigil 2, and No Rest for the Living.
 
@@ -52,7 +52,10 @@ Installation Instructions
 
 2. Run Crispy-Master-Menu.exe and use the Browse buttons to select your game executables.
    * The button to find "crispy-doom.exe" is inside the "Locate .EXE" section.
-   * The buttons for Heretic, Hexen, and Strife are located inside the "SPECIAL GUESTS" section.
+   * The button for Heretic, Hexen, and Strife is located inside the "SPECIAL GUESTS" section.
+   * Note for Special Guests: Once you have located the three executables (crispy-heretic.exe,    
+      Crispy-hexen.exe, and Crispy-strife.exe), simply change the title in the Game combobox, 
+      and the launcher will automatically switch to the corresponding executable. 
 
 3. Important Note: The master-wads, maximum1, and maximum2 folders must remain in the same directory as Crispy-Master-Menu.exe for the Master Levels and Maximum Doom features to work properly.
 

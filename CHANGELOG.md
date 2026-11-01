@@ -3,7 +3,7 @@ This updated version of Crispy-Master-Menu features new characteristics.
 
 ---
 
-## [1.3] - Official Release
+## [2.0] - Official Release
 ### Added
 1. *New navigation system for the launcher, aiming for the closest possible resemblance to the one in the official release of DOOM + DOOM II..*
 2. *Custom WADs that are found are now remembered in the listbox; a new button called "Clear list" has also been added, allowing you to clear the listbox if you wish to start a new list.

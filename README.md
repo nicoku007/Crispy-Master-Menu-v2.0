@@ -11,9 +11,9 @@ Launcher features:
 
 • Multi-Game Support: Launch and manage Doom, Heretic, Hexen, and Strife from a single unified interface.
 
-• IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
+• IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad. 
 
-• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture.
+• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture. To select more than one custom WAD, hold down the CTRL key.
 
 • support for Sigil, Sigil 2, and No Rest for the Living.
 

@@ -48,7 +48,7 @@ Visual Customization
 
 Installation Instructions
 
-1. Extract the entire "Crispy-Master-Menu" folder from the ZIP archive and place it anywhere on your system.
+1. Extract the entire Crispy-Master-Menu folder from the ZIP archive and place it anywhere on your system. The master-wads folder (for Master Levels WADs), and the maximum1 and maximum2 folders (for Maximum Doom WADs) are already included inside the ZIP.
 
 2. Run Crispy-Master-Menu.exe and use the Browse buttons to select your game executables.
    * The button to find "crispy-doom.exe" is inside the "Locate .EXE" section.
@@ -57,7 +57,7 @@ Installation Instructions
       Crispy-hexen.exe, and Crispy-strife.exe), simply change the title in the Game combobox, 
       and the launcher will automatically switch to the corresponding executable. 
 
-3. Important Note: The master-wads, maximum1, and maximum2 folders must remain in the same directory as Crispy-Master-Menu.exe for the Master Levels and Maximum Doom features to work properly.
+3. Portability Note: The master-wads, maximum1, and maximum2 folders must remain in the same directory as Choco-Master-Menu.exe for the Master Levels and Maximum Doom features to work properly. It is no longer necessary to place them next to chocolate-doom.exe.
 
 4. Place your Master Levels files inside the master-wads folder.
 

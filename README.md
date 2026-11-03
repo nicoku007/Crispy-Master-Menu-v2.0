@@ -17,7 +17,7 @@ Launcher features:
 
 • support for Sigil, Sigil 2, and No Rest for the Living.
 
-• Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
+• Direct Setup Access: Dedicated button to instantly launch crispy-doom.setup without needing to close the launcher.
 
 • Quick Controls: Press F1 for full screen mode and Escape to return to windowed mode.
 
@@ -33,7 +33,7 @@ Multiplayer, Parameters & Demos
 
 • Advanced Multiplayer: Independent options per session (Cooperative, Deathmatch, Deathmatch 2.0, private server, IP, UDP port, server name, and auto-join). Lets you query the Chocolate Doom Master Server or search the local area.
 
-• Simplified Player Name: Reads your chocolate-doom.cfg file to change your name from the menu. The code handles the necessary quotation marks (" ") automatically.
+• Simplified Player Name: Reads your crispy-doom.cfg file to change your name from the menu. The code handles the necessary quotation marks (" ") automatically.
 
 • Engine Parameters: Direct toggles for No monsters, Fast monsters, Respawn monsters, and Turbo, along with an Extra Parameters text box for any other command argument.
 
